@@ -1,0 +1,10 @@
+
+
+POST -
+curl -i -X POST -H "Content-Type:application/json" -d "{  \"name\" : \"Rudyard Kipling\",  \"status\" : \"INACTIVE\"}" http://localhost:8083/authors
+
+
+PUT -
+curl -i -X PUT -H "Content-Type:application/json" -d "{  \"name\" : \"Nick\",  \"status\" : \"INACTIVE\"}" http://localhost:8083/authors/1
+
+
